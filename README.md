@@ -35,7 +35,7 @@ A retro, 1980s sci-fi themed dashboard that displays NASA Mars Rover data. The a
 1. Create a `.env` file in the root of your project.
 2. Add your NASA API key to the file:
 
-   ````env
+   ```env
    VITE_NASA_API_KEY=your_actual_api_key_here
    ```
 
@@ -46,7 +46,7 @@ A retro, 1980s sci-fi themed dashboard that displays NASA Mars Rover data. The a
    ```bash
    yarn dev
    ```
-   Open http://localhost:5173 in your browser to view the dashboard.
+Open http://localhost:5173 in your browser to view the dashboard.
 
 2. **Build for production and preview:**
 
@@ -66,7 +66,6 @@ A retro, 1980s sci-fi themed dashboard that displays NASA Mars Rover data. The a
 ## 6. Project Structure
 
    ```bash
-
    1980s-mars-dashboard/
    ├── public/
    ├── src/
@@ -97,7 +96,6 @@ A retro, 1980s sci-fi themed dashboard that displays NASA Mars Rover data. The a
 
    ```bash
    git checkout -b feature/YourFeature
-
    ```
 
 3. **Commit your changes:**
@@ -113,8 +111,6 @@ A retro, 1980s sci-fi themed dashboard that displays NASA Mars Rover data. The a
 
 5. **Open pull request:**
 
-
 ## 8. License
 
 This project is licensed under the MIT License.
-````
