@@ -35,57 +35,59 @@ A retro, 1980s sci-fi themed dashboard that displays NASA Mars Rover data. The a
 1. Create a `.env` file in the root of your project.
 2. Add your NASA API key to the file:
 
-````env
-VITE_NASA_API_KEY=your_actual_api_key_here
+   ````env
+   VITE_NASA_API_KEY=your_actual_api_key_here
+   ```
 
 ## 4. Running the App
 
 1.  **Start the dev server:**
 
-```bash
-yarn dev
-
-Open http://localhost:5173 in your browser to view the dashboard.
+   ```bash
+   yarn dev
+   ```
+   Open http://localhost:5173 in your browser to view the dashboard.
 
 2. **Build for production and preview:**
 
-```bash
-yarn build
-yarn preview
-
+   ```bash
+   yarn build
+   yarn preview
+   ```
 
 ## 5. Running Tests
 
 1. **Run the tests:**
 
-```bash
-yarn test
+   ```bash
+   yarn test
+   ```
 
 ## 6. Project Structure
 
-```bash
-````
+   ```bash
 
-1980s-mars-dashboard/
-├── public/
-├── src/
-│ ├── api/
-│ │ └── nasa.ts # NASA API fetching logic
-│ ├── components/
-│ │ └── RoverManifest.tsx # Component displaying rover details and photo gallery
-│ ├── hooks/
-│ │ ├── useRoverManifest.ts # Custom hook for fetching rover manifest data
-│ │ └── useRoverPhotos.ts # Custom hook for fetching rover photos
-│ ├── styles/
-│ │ └── theme.ts # Theme configuration for styled-components
-│ ├── App.tsx
-│ ├── main.tsx
-│ └── styled.d.ts # Type definitions for styled-components theme
-├── .env # Environment variables (ignored by Git)
-├── .gitignore
-├── package.json
-├── tsconfig.app.json
-└── vite.config.ts
+   1980s-mars-dashboard/
+   ├── public/
+   ├── src/
+   │ ├── api/
+   │ │ └── nasa.ts # NASA API fetching logic
+   │ ├── components/
+   │ │ └── RoverManifest.tsx # Component displaying rover details and photo gallery
+   │ ├── hooks/
+   │ │ ├── useRoverManifest.ts # Custom hook for fetching rover manifest data
+   │ │ └── useRoverPhotos.ts # Custom hook for fetching rover photos
+   │ ├── styles/
+   │ │ └── theme.ts # Theme configuration for styled-components
+   │ ├── App.tsx
+   │ ├── main.tsx
+   │ └── styled.d.ts # Type definitions for styled-components theme
+   ├── .env # Environment variables (ignored by Git)
+   ├── .gitignore
+   ├── package.json
+   ├── tsconfig.app.json
+   └── vite.config.ts
+   ```      
 
 ## 7. Contributing
 
@@ -100,13 +102,14 @@ yarn test
 
 3. **Commit your changes:**
 
-````bash
-git commit -m 'Add some feature'
+   ```bash
+   git commit -m 'Add some feature'
+   ```
 
 4. **Push the branch:**
 
-```bash
-git push origin feature/YourFeature
+   ```bash
+   git push origin feature/YourFeature
 
 5. **Open pull request:**
 
