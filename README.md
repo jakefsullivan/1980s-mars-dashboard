@@ -40,7 +40,7 @@ VITE_NASA_API_KEY=your_actual_api_key_here
 
 ## 4. Running the App
 
-1. **Start the dev server:**
+1.  **Start the dev server:**
 
 ```bash
 yarn dev
